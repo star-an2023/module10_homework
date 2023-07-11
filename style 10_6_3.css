@@ -1,0 +1,59 @@
+.body-button {
+    font-size: 15px;
+}
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 100%;
+  font-size: 1fr 1fr 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  font-size: 12px;
+  border-style: solid;
+  border-color:aquamarine;
+  border-width: 2px;
+  border-radius: 10%;
+
+}
+
+.chat-message {
+  align-self:flex-end;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  font-size: 12px;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10%;
+  border-color:aquamarine;
+}
+
+.chat-answer {
+  align-self:flex-start;
+  flex-wrap: wrap;
+  padding-right: 10%;
+  font-size: 12px;
+  color:black;
+  border-width: 2px;
+  border-color:aquamarine;
+  border-radius: 10%;
+  border-style: solid;
+}
+
+.chat-answerERR {
+  align-self:flex-start;
+  flex-wrap: wrap;
+  padding-right: 10%;
+  font-size: 12px;
+  color: red;
+  border-width: 2px;
+  border-color:aquamarine;
+  border-radius: 10%;
+  border-style: solid;
+}
